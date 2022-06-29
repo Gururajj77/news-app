@@ -1,9 +1,13 @@
+import { SportsComponent } from './sports/sports.component';
+import { TechnewsComponent } from './technews/technews.component';
 import { TopheadingComponent } from './topheading/topheading.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path: '', component:TopheadingComponent},
+  {path: 'tech', component:TechnewsComponent},
+  {path: 'sports', component:SportsComponent},
 
 ];
 
